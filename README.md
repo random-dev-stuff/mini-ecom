@@ -57,6 +57,12 @@ Build a simple e-commerce web application with two main tabs — one for submitt
 
    The server will be running at [http://localhost:3001](http://localhost:3001)
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/eee0693a-50b8-474d-83e4-87905a0b8b4c)
+![image](https://github.com/user-attachments/assets/ded58640-d72e-4cc9-9992-dfeebb207d43)
+![image](https://github.com/user-attachments/assets/fa3b61a3-5532-432a-b1c0-444459e51d88)
+
+
 ## What's Working
 
 - Users can add products with a title, price, description, and image URL.
