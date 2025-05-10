@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Web App Project Submission Mini E-Commerce Platform with Two TabsGoal:
 
-## Getting Started
+Build a simple e-commerce web application with two main tabs — one for submitting products, and one for viewing submitted products, with an optional smart search feature.
 
-First, run the development server:
+## Setup Instructions
+
+### Frontend
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/random-dev-stuff/mini-ecom.git
+   cd mini-ecom
+
+   ```
+
+2. Install Dependencies
+
+   ```bash
+   npm install
+
+   ```
+
+3. Run the developement server
+
+   ```bash
+   npm run dev
+
+   ```
+
+   The app will be running at [http://localhost:3000](http://localhost:3000)
+
+## Backend Setup
+
+1.  Navigate to Backend Folder
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd mini-ecommerce-be
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2.  Copy '.env.example' file to '.env'
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3.  Set up the PostgreSQL database
+    Create a PostgreSQL database and add the necessary configuration to the '.env' file
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4.  Install Dependencies
 
-## Learn More
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4.  Run the backend server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+node index.js
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    The server will be running at [http://localhost:3001](http://localhost:3001)
 
-## Deploy on Vercel
+## What's Working
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Users can add products with a title, price, description, and image URL.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Products can be searched by title.
+
+- Users can view a list of all available items.
+
+- All product data is stored in a PostgreSQL database.
