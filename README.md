@@ -1,4 +1,4 @@
-## Web App Project Submission Mini E-Commerce Platform with Two TabsGoal:
+# Web App Project Submission Mini E-Commerce Platform with Two TabsGoal
 
 Build a simple e-commerce web application with two main tabs — one for submitting products, and one for viewing submitted products, with an optional smart search feature.
 
@@ -21,7 +21,7 @@ Build a simple e-commerce web application with two main tabs — one for submitt
 
    ```
 
-3. Run the developement server
+3. Run the development server
 
    ```bash
    npm run dev
@@ -30,32 +30,32 @@ Build a simple e-commerce web application with two main tabs — one for submitt
 
    The app will be running at [http://localhost:3000](http://localhost:3000)
 
-## Backend Setup
+### Backend Setup
 
-1.  Navigate to Backend Folder
+1. Navigate to Backend Folder
 
-```bash
-cd mini-ecommerce-be
-```
+   ```bash
+   cd mini-ecommerce-be
+   ```
 
-2.  Copy '.env.example' file to '.env'
+2. Copy '.env.example' file to `.env`
 
-3.  Set up the PostgreSQL database
-    Create a PostgreSQL database and add the necessary configuration to the '.env' file
+3. Set up the PostgreSQL database
+   Create a PostgreSQL database and add the necessary configuration to the `.env` file
 
-4.  Install Dependencies
+4. Install Dependencies
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
-4.  Run the backend server
+5. Run the backend server
 
-```bash
-node index.js
-```
+   ```bash
+   node index.js
+   ```
 
-    The server will be running at [http://localhost:3001](http://localhost:3001)
+   The server will be running at [http://localhost:3001](http://localhost:3001)
 
 ## What's Working
 
